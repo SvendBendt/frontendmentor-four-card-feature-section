@@ -24,10 +24,27 @@ body {
 .cardtainer p {}
 
 .card {
-  background-color: green;
-  height:200px;
-  width:200px;
+  height:222px;
+  width:311px;
 }
+
+.card:nth-child(1){
+border-top: 5px solid #44D3D2;
+}
+
+.card:nth-child(2){
+border-top: 5px solid #EA5454;
+}
+
+.card:nth-child(3){
+border-top: 5px solid #FCAE4A;
+}
+
+.card:nth-child(4){
+border-top: 5px solid #377FD2;
+}
+
+
 
 .attribution {
   font-size: 11px;
