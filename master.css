@@ -3,8 +3,7 @@ html {
 }
 
 body {
-  /* margin: 0 auto;
-  min-width:375px; */
+  background-color:#F2F2F2;
 }
 
 .reliable-heading {}
@@ -24,6 +23,7 @@ body {
 .cardtainer p {}
 
 .card {
+  background-color: #FFFFFF;
   height:222px;
   width:311px;
 }
