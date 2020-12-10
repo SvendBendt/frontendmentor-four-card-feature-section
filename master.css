@@ -1,5 +1,11 @@
 html {
-  /* font-size: 62.5%; */
+  font-size: 62.5%;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 body {
@@ -20,14 +26,25 @@ body {
   justify-content: center;
 }
 
-.cardtainer h2 {}
+.cardtainer h2 {
+  color: #4D4F62;
+  font-size: 2.0rem;
+  font-weight:600;
+}
 
-.cardtainer p {}
+.cardtainer p {
+  color: #4D4F62;
+  font-size:1.3rem;
+  line-height:2.3rem;
+  letter-spacing: 0.09px;
+}
 
 .card {
   background-color: #FFFFFF;
   height:222px;
   width:311px;
+  margin-bottom:20px;
+  padding-left: 29px;
 }
 
 .card:nth-child(1){
